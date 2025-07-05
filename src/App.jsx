@@ -12,6 +12,7 @@ function App() {
 
           3. 'RootLayout' er vitore :
           {/* -----------
+
           import Header from './Header'
           import Footer from './Footer'
           import { Outlet } from 'react-router'
@@ -25,12 +26,14 @@ function App() {
               </>
             )
           }
-          */}
+            
+          -----------*/}
 
           4. create 'Error.jsx' in 'pages' folder
 
           5. menu gula link korte hbe : 
           {/* -----------
+
               import { Link } from "react-router";
 
 
@@ -44,11 +47,13 @@ function App() {
                     Shop
                   </li>
                 </Link>
-          */}
+
+          -----------------*/}
 
 
           6. main.jsx :
           {/* ------
+
           import { StrictMode } from "react";
           import { createRoot } from "react-dom/client";
           import { BrowserRouter } from "react-router";
@@ -64,10 +69,11 @@ function App() {
               </StrictMode>
           );
           
-          */}
+          -------------*/}
 
           7. app.jsx :
           {/* -------
+
           import { Routes, Route } from "react-router";
           import RootLayout from "./components/layouts/RootLayout";
           import Home from "./components/pages/Home";
@@ -84,7 +90,7 @@ function App() {
           </Route>
         </Routes>
           
-          */}
+        --------------*/}
         </p>
       </div>
     </>
